@@ -1,194 +1,1549 @@
-<!DOCTYPE php>
-<php>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="dist/sakura.css" />
+<!DOCTYPE html>
+<html lang="vi">
+<head id="HeadInfo"><title>
+	Trường THCS và THPT BlackNooby
+</title><link rel="shortcut icon" href="/Image/lv.png" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="Microsoft Visual Studio 7.0" name="GENERATOR" /><meta content="C#" name="CODE_LANGUAGE" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta content="JavaScript" name="vs_defaultClientScript" /><meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema" /><link rel="stylesheet" type="text/css" href="/css/Style.css" />
+    <!-- Menu Left-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/js/owl.carousel.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/jquery.infinitecarouselmax.js"></script>
+    <link id="CSSWebSiteTNB" rel="stylesheet" type="text/css" href="/css/genaral.css" />
+    <!--Tin Noi Bat--->
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,700,500,600&amp;subset=latin,vietnamese" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
-        <link rel="stylesheet" href="./light-style.css">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-        <marquee>
-            <title>Information Of Gia Dep Trai</title>
-        </marquee>
-    </head>
-    <body>
-        <script src="dist/sakura.js" text="text/javascript"></script>
-        <script>
-            var sakura = new Sakura('body', {
-                colors: [{
-                    gradientColorStart: '#000',
-                    gradientColorEnd: '#000',
-                    gradientColorDegree: 120,
-                },
-                    {
-                    gradientColorStart: '#000',
-                    gradientColorEnd: '#000',
-                    gradientColorDegree: 120,
-                },
-                    {
-                    gradientColorStart: '#000',
-                    gradientColorEnd: '#000',
-                    gradientColorDegree: 120,
-                },
-                ],
-                delay: 300,
-            });
-        </script>
-    </body
-    <script type='text/javascript'>
+    <script type="text/javascript">
+        $(window).bind('scroll', function () {
+            if ($(window).scrollTop() > 50) {
+                $('#menu').addClass('fixed');
+            } else {
+                $('#menu').removeClass('fixed');
+            }
+        });
 
-    <div class="wrap">
-        <div class="profile">
-            <div class="profile-above">
-                <div class="avatar">
-                    <img src="avt.jpg" style="width:75px; height:75px">
+
+    </script>
+    
+</head>
+<body>
+    <div style="margin: 0 auto; width: 100%; display: block; overflow: hidden; height: auto; vertical-align: top; padding: 0px;">
+        
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<script type="text/javascript" src="/js/Search.js"></script>
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/stylesmenu.css" />
+<link rel="stylesheet" type="text/css" href="/css/foot.css" />
+
+<div style="padding: 0; width: 100%; display: block; vertical-align: top; overflow: hidden; height: auto; margin: 0 auto; max-height: 2400px;">
+    <div style="padding: 0; width: 100%; display: block; vertical-align: top; overflow: hidden; height: auto; margin: 0 auto; max-width: 2400px;">
+        <img src="/Image/bannerlienviet.png" style="width: 100%; height: auto; border: 0px; padding: 0px;" alt="banner" />
+    </div>
+</div>
+
+
+
+<div style="background-color: #000; width: 100%; background-color:#9f224e; max-width: 2400px; margin: 0 auto; height:auto; padding:2px;" >
+    <div style="background-color: #000; width: 100%; max-width: 1200px; margin: 0 auto">  
+    <nav id="menu">
+	<label for="tm" id="toggle-menu">MENU <span class="drop-icon">▾</span></label> <input id="tm" type="checkbox" />
+	<ul class="main-menu clearfix">
+		<li>
+			<a href="/trangchu">Con Cặc</a></li>
+		<li>
+			<a href="#">Con Cặc<span class="drop-icon">▾</span><label class="drop-icon" for="sm1" title="Toggle Drop-down">▾</label> </a><input id="sm1" type="checkbox" />
+			<ul class="sub-menu">
+				<li>
+					<a href="#">Con Cặc</a></li>
+				<li>
+					<a href="#">Con Cặc<span class="drop-icon">▾</span><label class="drop-icon" for="sm2" title="Toggle Drop-down">▾</label> </a><input id="sm2" type="checkbox" />
+					<ul class="sub-menu">
+						<li>
+							<a href="/dang-uy/">Con Cặc</a></li>
+						<li>
+							<a href="/ban-giam-hieu/Ban-Giam-Hieu-Truong-THCS--THPT-Lien-Viet-Kon-Tum-780">Ban Gi&aacute;m hiệu</a></li>
+						<li>
+							<a href="/cong-doan/">C&ocirc;ng Đo&agrave;n</a></li>
+						<li>
+							<a href="/hoat-dong-doan/">Đo&agrave;n Thanh ni&ecirc;n</a></li>
+						<li>
+							<a href="#">C&aacute;c tổ chuy&ecirc;n m&ocirc;n<span class="drop-icon">▾</span><label class="drop-icon" for="sm5" title="Toggle Drop-down">▾</label> </a><input id="sm5" type="checkbox" />
+							<ul class="sub-menu">
+								<li>
+									<a href="/cac-to-chuyen-mon/To-Toan-762">Tổ To&aacute;n</a></li>
+								<li>
+									<a href="/cac-to-chuyen-mon/To-Vat-ly-753">Tổ L&yacute;</a></li>
+								<li>
+									<a href="/cac-to-chuyen-mon/To-Hoa-hoc-752">Tổ H&oacute;a</a></li>
+								<li>
+									<a href="/cac-to-chuyen-mon/To-Sinh-hoc-754">Tổ Sinh</a></li>
+								<li>
+									<a href="/cac-to-chuyen-mon/To-Tin-hoc-755">Tổ Tin&nbsp;học</a></li>
+								<li>
+									<a href="/cac-to-chuyen-mon/To-Ngu-van-756">Tổ Ngữ văn</a></li>
+								<li>
+									<a href="/cac-to-chuyen-mon/To-Lich-su-757">Tổ Lịch sử</a></li>
+								<li>
+									T<a href="/cac-to-chuyen-mon/To-Dia-ly-758">ổ Địa l&yacute;</a></li>
+								<li>
+									<a href="/cac-to-chuyen-mon/To-Tieng-Anh-760">Tổ&nbsp;Anh Văn</a></li>
+								<li>
+									<a href="/cac-to-chuyen-mon/TO-GDTC-763">Tổ Thể Dục - GDQP</a></li>
+								<li>
+									<a href="/cac-to-chuyen-mon/To-Hanh-chinh-761">Tổ Văn Ph&ograve;ng</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Con Cặc - SỰ KIỆN<span class="drop-icon">▾</span><label class="drop-icon" for="sm3" title="Toggle Drop-down">▾</label> </a><input id="sm3" type="checkbox" />
+			<ul class="sub-menu">
+				<li>
+					<a href="/tin-tuc-su-kien/">Tin&nbsp;tức - Sự kiện</a></li>
+				<li>
+					<a href="/tin-nha-truong/">Tin nh&agrave; trường</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="/vanbanphapluat.aspx">Con Cặc</a></li>
+		<li>
+			<a href="/lich-cong-tac/">LỊCH C&Ocirc;NG T&Aacute;C</a></li>
+		<li>
+			<a href="https://tkb.lienvietkontum.edu.vn/">Con Cặc</a></li>
+		<li>
+			<a href="https://dichvucong.kontum.gov.vn/trang-chu?p_p_id=tracuutthc_WAR_egovtracuuportlet&amp;p_p_lifecycle=1&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_col_id=_118_INSTANCE_xd9ptwZivEAz__column-1&amp;p_p_col_count=1&amp;_tracuutthc_WAR_egovtracuuportlet_javax.portlet.action=traCuuTTHC&amp;coQuanQuanLy=759054&amp;linhVuc=0">THỦ TỤC H&Agrave;NH CH&Iacute;NH</a></li>
+		<li>
+			<a href="#">Học sinh<span class="drop-icon">▾</span><label class="drop-icon" for="sm3" title="Toggle Drop-down">▾</label>&nbsp;</a><input id="sm3" type="checkbox" />
+			<ul class="sub-menu">
+				<li>
+					<a href="/thanh-tich-tieu-bieu/">Th&agrave;nh t&iacute;ch ti&ecirc;u biểu</a></li>
+				<li>
+					<a href="/ket-qua-hoc-tap/">Con Cặc</a></li>
+				<li>
+					<a href="/danh-sach-hoc-sinh/">Danh s&aacute;ch học sinh</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Ban li&ecirc;n lạc<span class="drop-icon">▾</span><label class="drop-icon" for="sm3" title="Toggle Drop-down">▾</label>&nbsp;</a><input id="sm3" type="checkbox" />
+			<ul class="sub-menu">
+				<li>
+					<a href="/hoi-cuu-giao-chuc/">Hội cựu gi&aacute;o chức</a></li>
+				<li>
+					<a href="/cuu-hoc-sinh/">Hội Con Cặc</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="/gopylienhe/">LI&Ecirc;N HỆ</a></li>
+	</ul>
+</nav>
+
+    
+</div> </div>
+<div style="margin: 0 auto; max-width: 1200px; height:35px;  display: block; width: 100%; background-image:url(/Image/nenbanner1.png); background-repeat: repeat-x;    box-shadow: 0 5px 3px -3px rgba(0,0,0,0.15); padding-left: 2px;" class="khongvien">
+    <div class="datebanner" style="color:#0d73c9">
+        <i class="fa fa-calendar"   aria-hidden="true" style="float: left; margin-right: 3px; margin-top: 3px;"></i><span style="font-size: 9pt; color:#0d73c9; font-family: 'Roboto',sans-serif; color: #0d73c9; font-weight: 700; line-height: 22px;">Thứ 5,&nbsp;ngày 27 tháng 1 năm
+    2022</span>
+    </div>
+
+    <div class="tutorial"> <marquee width="100%" scrollamount="4" behavior="scroll">CHÀO MỪNG BẠN ĐẾN VỚI TRANG THÔNG TIN ĐIỆN TỬ TRƯỜNG THCS VÀ THPT LIÊN VIỆT KON TUM</marquee> </div>
+
+    <div class="topnav1">
+        <div class="search-container">
+
+            <button type="submit" onclick="TimKiem()">
+                <span class="material-icons" style="padding: 0px; font-size: 12px; margin: 0px;">search
+                </span>
+            </button>
+            <input type="text" placeholder="Con Cặc" name="search" id="txtTimKiem">
+        </div>
+    </div>
+
+</div>
+
+<div style="width: 100%; height: 3px; display: block; overflow: hidden;"></div>
+
+        <div class="divmain">
+           
+            <div style="margin: 0 auto 0 auto; vertical-align: top; width: 100%;">
+
+                <div class="centerweb">
+                    
+                    <div style="width: 100%; text-align: center; vertical-align: top; margin: 0 auto;">
+
+                        
+                        
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".slider-news-hotTNB").owlCarousel({
+
+            //Set AutoPlay to 3 seconds
+            autoPlay: true,
+            autoplayTimeout: 300,
+            autoplayHoverPause: true,
+            loop: true,
+            items: 1,
+            itemsDesktop: [1199, 1],
+            itemsDesktopSmall: [980, 1],
+            itemsTablet: [768, 1],
+            itemsMobile: [479, 1],
+            responsive: true,
+            responsiveRefreshRate: 200,
+            responsiveBaseWidth: window,
+            pagination: true,
+            paginationNumbers: false,
+            navigation: true,
+            navigationText: ["prev", "next"],
+        });
+
+    })
+
+    //$(".top-content-right").addClass("ver2");
+
+</script>
+
+
+<style type="text/css">
+    .textholder {
+        text-align: left;
+        font-size: small;
+        padding: 8px;
+    }
+
+        .textholder a {
+            color: #fff;
+        }
+
+    .slider-news-hotTNB .item .img img {
+        width: 100%;
+        height: 320px;
+        border-radius:8px;
+    }
+
+    .slider-news-hotTNB .item {
+        font-size: 14px;
+        text-align: justify;
+        line-height: 15px;
+        padding: 0px;
+    }
+</style>
+
+<div id="TinNoiBatOut">
+    <div id="TinNoiBat">
+        <div class="news-list">
+            <div class="ol-slide-news slider-news-hotTNB">
+                
+                <!-- First Content -->
+                <div class="item">
+                    
+                    <a class="img" href="/hoi-thao-khoa-hoc/Hoi-thao-nang-cao-chat-luong-day-hoc-mon-Ngu-van-lop-6-thuoc-Chuong-trinh-GDPT-2018-1795" title="Hội thảo nâng cao chất lượng dạy học môn Ngữ văn lớp 6 thuộc Chương trình GDPT 2018">
+                        <img src="/Uploads/images/hoi%20thao.png" alt="logo"></a>
+                    
+
+                    <a class="desc" href="/hoi-thao-khoa-hoc/Hoi-thao-nang-cao-chat-luong-day-hoc-mon-Ngu-van-lop-6-thuoc-Chuong-trinh-GDPT-2018-1795" title="Hội thảo nâng cao chất lượng dạy học môn Ngữ văn lớp 6 thuộc Chương trình GDPT 2018">
+                        Hội thảo nâng cao chất lượng dạy học môn Ngữ văn lớp 6 thuộc Chương trình GDPT 2018</a>
                 </div>
-                <div class="info">
-                    <h2> Gia Đẹp Trai <i class="fad fa-user-circle"></i></h2>
+                
+                <!-- First Content -->
+                <div class="item">
+                    
+                    <a class="img" href="/nghien-cuu-khoa-hoc/“Vo-ngon”-無-言-trong-quan-niem-van-hoc-co-dien-cac-nuoc-Dong-A-Wuyan-language-of-emptiness-in-the-concepts-of-classical-literature-of-the-East-Asian-countries-1791" title="“Vô ngôn” (無 言) trong quan niệm văn học cổ điển các nước Đông Á Wuyan (language of emptiness) in the concepts of classical literature of the East Asian countries">
+                        <img src="/Uploads/images/nghien%20c%C6%B0u%20v%C4%83n%20h%E1%BB%8Dc.jpg" alt="logo"></a>
+                    
 
-                    <div class="info-maxim">		
-                        <marquee behavior="slide" direction="up" scrollamount="1" scrolldelay="20">
-                            <i class="fad fa-comment-lines"></i>
-                           <b> Phang Chết cđmm 1 <br> Đcmm 2
-                          <br>  - Stand User -
-                            </marquee>
-                        </div>
-                        <b>
-                        </div>
+                    <a class="desc" href="/nghien-cuu-khoa-hoc/“Vo-ngon”-無-言-trong-quan-niem-van-hoc-co-dien-cac-nuoc-Dong-A-Wuyan-language-of-emptiness-in-the-concepts-of-classical-literature-of-the-East-Asian-countries-1791" title="“Vô ngôn” (無 言) trong quan niệm văn học cổ điển các nước Đông Á Wuyan (language of emptiness) in the concepts of classical literature of the East Asian countries">
+                        “Vô ngôn” (無 言) trong quan niệm văn học cổ điển các nước Đông Á Wuyan (language of emptiness) in the concepts of classical literature of the East Asia...</a>
+                </div>
+                
+                <!-- First Content -->
+                <div class="item">
+                    
+                    <a class="img" href="/tin-nha-truong/CHUONG-TRINH-DONG-AM--CUA-TRUONG-THCS-VA-THPT-LIEN-VIET-KON-TUM-1787" title="CHƯƠNG TRÌNH ĐÔNG ẤM  CỦA TRƯỜNG THCS VÀ THPT LIÊN VIỆT KON TUM">
+                        <img src="/Uploads/images/TIVI.jpg" alt="logo"></a>
+                    
+
+                    <a class="desc" href="/tin-nha-truong/CHUONG-TRINH-DONG-AM--CUA-TRUONG-THCS-VA-THPT-LIEN-VIET-KON-TUM-1787" title="CHƯƠNG TRÌNH ĐÔNG ẤM  CỦA TRƯỜNG THCS VÀ THPT LIÊN VIỆT KON TUM">
+                        CHƯƠNG TRÌNH ĐÔNG ẤM  CỦA TRƯỜNG THCS VÀ THPT LIÊN VIỆT KON TUM</a>
+                </div>
+                
+                <!-- First Content -->
+                <div class="item">
+                    
+                    <a class="img" href="/tin-nha-truong/TRUONG-THCS-VA-THPT-LIEN-VIET-KON-TUM-KHAI-GIANG-CAC-LOP-NANG-KHIEU-1784" title="TRƯỜNG THCS VÀ THPT LIÊN VIỆT KON TUM KHAI GIẢNG CÁC LỚP NĂNG KHIẾU">
+                        <img src="/Uploads/images/z3037901612412_fcfbc9611428f1535af42a4c47ac6a6f.jpg" alt="logo"></a>
+                    
+
+                    <a class="desc" href="/tin-nha-truong/TRUONG-THCS-VA-THPT-LIEN-VIET-KON-TUM-KHAI-GIANG-CAC-LOP-NANG-KHIEU-1784" title="TRƯỜNG THCS VÀ THPT LIÊN VIỆT KON TUM KHAI GIẢNG CÁC LỚP NĂNG KHIẾU">
+                        TRƯỜNG THCS VÀ THPT LIÊN VIỆT KON TUM KHAI GIẢNG CÁC LỚP NĂNG KHIẾU</a>
+                </div>
+                
+                <!-- First Content -->
+                <div class="item">
+                    
+                    <a class="img" href="/tin-nha-truong/Le-khai-giang-Truong-THCS-va-THPT-Lien-Viet-Kon-Tum-778" title="Lễ khai giảng Trường THCS và THPT Liên Việt Kon Tum">
+                        <img src="/Uploads/images/20200905105214img-2864-1-.jpg" alt="logo"></a>
+                    
+
+                    <a class="desc" href="/tin-nha-truong/Le-khai-giang-Truong-THCS-va-THPT-Lien-Viet-Kon-Tum-778" title="Lễ khai giảng Trường THCS và THPT Liên Việt Kon Tum">
+                        Lễ khai giảng Trường THCS và THPT Liên Việt Kon Tum</a>
+                </div>
+                
+                <!-- First Content -->
+                <div class="item">
+                    
+                    <a class="img" href="/tin-nha-truong/Hoat-dong-ngoai-khoa-chao-mung-ngay-nha-giao-Viet-Nam-2011-cua-Truong-THCS-va-THPT-Lien-Viet-Kon-Tum-777" title="Hoạt động ngoại khóa chào mừng ngày nhà giáo Việt Nam 20/11 của Trường THCS và THPT Liên Việt Kon Tum">
+                        <img src="/Uploads/images/20_11_20%20tth1.jpg" alt="logo"></a>
+                    
+
+                    <a class="desc" href="/tin-nha-truong/Hoat-dong-ngoai-khoa-chao-mung-ngay-nha-giao-Viet-Nam-2011-cua-Truong-THCS-va-THPT-Lien-Viet-Kon-Tum-777" title="Hoạt động ngoại khóa chào mừng ngày nhà giáo Việt Nam 20/11 của Trường THCS và THPT Liên Việt Kon Tum">
+                        Hoạt động ngoại khóa chào mừng ngày nhà giáo Việt Nam 20/11 của Trường THCS và THPT Liên Việt Kon Tum</a>
+                </div>
+                
+            </div>
+
+
+        </div>
+    </div>
+    <div id="TinMoiMain">
+        
+
+<div class="TinMoi">
+    <ul>
+        
+        <li>
+            
+            <a href="/hoi-thao-khoa-hoc/Hoi-thao-nang-cao-chat-luong-day-hoc-mon-Ngu-van-lop-6-thuoc-Chuong-trinh-GDPT-2018-1795" title="Hội thảo nâng cao chất lượng dạy học môn Ngữ văn lớp 6 thuộc Chương trình GDPT 2018">
+
+                <img src="/Uploads/images/hoi%20thao.png" style="border: 0px; width: 36%; float: left; padding-top: 2px;border-radius:3px 3px;" />
+
+                <span style="float: right;width:60%; text-align: justify; vertical-align: top; margin-left: 2%;float:left;line-height:22px;">Hội thảo nâng cao chất lượng dạy học môn Ngữ văn lớp 6 thuộc Chương trình GDPT 2...<span class="ngaythangtin">(25-1-2022)</span></span>
+
+            </a>
+
+            
+        </li>
+        
+        <li>
+            
+            <a href="/tin-nha-truong/Nganh-Giao-duc-Kon-Tum-tham-va-tang-qua-Tet-giao-vien,-hoc-sinh-kho-khan-1794" title="Ngành Giáo dục Kon Tum thăm và tặng quà Tết giáo viên, học sinh khó khăn">
+
+                <img src="/Uploads/images/905a1bf8e4c3299d70d2(3).jpg" style="border: 0px; width: 36%; float: left; padding-top: 2px;border-radius:3px 3px;" />
+
+                <span style="float: right;width:60%; text-align: justify; vertical-align: top; margin-left: 2%;float:left;line-height:22px;">Ngành Giáo dục Kon Tum thăm và tặng quà Tết giáo viên, học sinh khó khăn<span class="ngaythangtin">(20-1-2022)</span></span>
+
+            </a>
+
+            
+        </li>
+        
+        <li>
+            
+            <a href="/an-pham-khoa-hoc/Mot-so-hanh-vi-lech-chuan-cua-hoc-sinh-xay-ra-pho-bien-tren-dia-ban-thanh-pho-Kon-Tum-1793" title="Một số hành vi lệch chuẩn của học sinh xảy ra phổ biến trên địa bàn thành phố Kon Tum">
+
+                <img src="/Uploads/images/B%E1%BA%AFt%20n%E1%BA%A1t%20%E1%BA%A3o.jpg" style="border: 0px; width: 36%; float: left; padding-top: 2px;border-radius:3px 3px;" />
+
+                <span style="float: right;width:60%; text-align: justify; vertical-align: top; margin-left: 2%;float:left;line-height:22px;">Một số hành vi lệch chuẩn của học sinh xảy ra phổ biến trên địa bàn thành phố Ko...<span class="ngaythangtin">(15-1-2022)</span></span>
+
+            </a>
+
+            
+        </li>
+        
+        <li>
+            
+            <a href="/tin-nha-truong/Truong-THCS-va-THPT-Lien-Viet-Kon-Tum-to-chuc-Chuong-trinh-Dong-am-1792" title="Trường THCS và THPT Liên Việt Kon Tum tổ chức Chương trình Đông ấm">
+
+                <img src="/Uploads/images/100337%C4%90%C3%B4ng%20%E1%BA%A5m%20(1).jpg" style="border: 0px; width: 36%; float: left; padding-top: 2px;border-radius:3px 3px;" />
+
+                <span style="float: right;width:60%; text-align: justify; vertical-align: top; margin-left: 2%;float:left;line-height:22px;">Trường THCS và THPT Liên Việt Kon Tum tổ chức Chương trình Đông ấm<span class="ngaythangtin">(13-1-2022)</span></span>
+
+            </a>
+
+            
+        </li>
+        
+    </ul>
+</div>
+    </div>
+    <div style="height: 55px; width: 300px; display: block; margin-top: 20px; overflow: hidden; position: absolute; float: right;">
+        <ul class="navTNB">
+            <li class="navTNB-li">TIN NỔI BẬT </li>
+        </ul>
+    </div>
+</div>
+<div style="width: 100%; height: 5px; display: block;"></div>
+
+<style>
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box;
+    }
+
+    .navTNB {
+        list-style-type: none;
+        padding-left: 0;
+        display: flex;
+        padding: 0;
+            }
+
+    .navTNB-li {
+        background:#ff6a00;
+        padding: .5rem 1rem .8rem 2rem;
+        position: relative;
+        transition: all .2s;
+        color:  #f4eeee;
+        font-size: 16.5px;
+        font-family: "Roboto Condensed", sans-serif;
+        letter-spacing: 1.5px;
+        font-weight: 700;
+        opacity: 1;
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25); 
+
+    }
+
+        .navTNB-li:hover::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            content: "";
+            display: inline-block;
+            border: 17px solid transparent;
+            border-left: 10px solid #ff6a00;
+            border-right: 0;
+            margin-right: -10px;
+            border:1px solid #fff;
+        }
+
+        .navTNB-li:first-child {
+            padding: .5rem 1rem;
+        }
+
+        .navTNB-li:not(:last-child) {
+            margin-right: 10px;
+        }
+
+        .navTNB-li:after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            content: "";
+            display: inline-block;
+            border: 17px solid transparent;
+            border-left: 10px solid #ff6a00;
+            border-right: 0;
+            margin-right: -10px;
+            transition: all .2s;
+        }
+
+        .navTNB-li:not(:first-child):before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "";
+            display: inline-block;
+            border: 17px solid transparent;
+            border-left: 10px solid white;
+            border-right: 0;
+        }
+</style>
+
+
+                        
+<div style="width: 100%; overflow: hidden; vertical-align: top; display: block; margin-top: 10px;">
+    
+
+    <div style="margin: 0 auto; display: block; overflow: hidden; float: left; width: 100%;">
+
+        <div style="width: 100%; overflow: hidden; vertical-align: top; display: block; margin-top: 10px;">
+	<div style="margin: 0 auto; display: block; overflow: hidden; float: left; width: 100%;">
+		<img alt="" src="/Uploads/images/MARKET%20MDMX.png" style="width: 100%;" /></div>
+</div>
+
+    </div>
+    <div style="width: 100%; height: 10px; margin: 0 auto; display: block; overflow: auto;"></div>
+    
+    <div class="tabs">
+
+        
+
+        <input type="radio" name="58" id="1" checked="checked">
+        
+        <label for="1"><span style ="margin-left:-7px">  <i class="fa fa-bars" aria-hidden="true"></i>&nbsp;</span> Tin tức - sự kiện</label>
+        <div class="tabnd">
+
+            <!-- Het tieu de Chuyen Muc Loai 2 -->
+            
+
+            <div style="width: 100%; display: block; overflow: hidden; vertical-align: top; float: left; padding-top: 3px;">
+                <table style="width: 100%; border-spacing: 0px; vertical-align: top;">
+
+                    
+                    <tr>
+                        <td style="width: 100%; vertical-align: top; padding-bottom: 5px;">
+                            <table style="width: 100%; border-spacing: 2px 2px;">
+
+                                
+
+                                <tr>
+                                    <td style="text-align: justify; width: 30%; padding-right: 5px; vertical-align: top; padding-top: 5px;">
+                                        <img class="vienanh" src="/Uploads/images/2021/10/thi%20t%E1%BB%91t%20nghi%E1%BB%87p%20thpt%202022.jpg" alt="Giải đáp một số nội dung về phương án thi tốt nghiệp THPT và tuyển sinh năm 2022" style="width: 100%; height: auto;" />
+
+
+                                    </td>
+                                    <td style="text-align: justify; vertical-align: top; padding-left: 5px;">
+                                        <div style="width: 100%; float: right; display: block; overflow: hidden; margin-bottom: 5px;">
+                                            <a href='/tin-tuc-su-kien/Giai-dap-mot-so-noi-dung-ve-phuong-an-thi-tot-nghiep-THPT-va-tuyen-sinh-nam-2022-765'><span class="TinChinhMain">Giải đáp một số nội dung về phương án thi tốt nghiệp THPT và tuyển sinh năm 2022</span></a>
+                                        </div>
+                                       <p class="TomTatMain">Ông Mai Văn Trinh, Cục trưởng Cục Quản lý chất lượng, Bộ Giáo dục và Đào tạo (GDĐT) thông tin làm rõ một số nội dung xung quanh phương án thi tốt nghiệp THPT và tuyển sinh đại học, cao đẳng sư phạm năm 2022.</p>
+                                        <p class="ngaythangtomtat"><i class="fa fa-calendar" aria-hidden="true" style="margin-right: 3px;"></i>10-10-2021</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 1px;" colspan="2"></td>
+                                </tr>
+                                
+                                <!-- Dong moi-->
+                            </table>
+
+                        </td>
+                    </tr>
+                    
+                    <tr>
+
+                        <td style="vertical-align: middle; text-align: justify;">
+                            <span class="material-icons" style="color: #ff6a00; font-size: 7px;">brightness_1
+                            </span>
+                            
+                            <a href="/tin-tuc-su-kien/Nhan-rong-mo-hinh-bua-an-hoc-duong,-nang-cao-suc-khoe,-tam-voc-hoc-sinh-766" title="Nhân rộng mô hình bữa ăn học đường, nâng cao sức khỏe, tầm vóc học sinh">Nhân rộng mô hình bữa ăn học đường, nâng cao sức khỏe, tầm vóc học sinh</a><span class="ngaythangtin">(10-10-2021)</span>
+
+                        </td>
+
+
+                    </tr>
+
+                    
+                    <tr>
+
+                        <td style="vertical-align: middle; text-align: justify;">
+                            <span class="material-icons" style="color: #ff6a00; font-size: 7px;">brightness_1
+                            </span>
+                            
+                            <a href="/tin-tuc-su-kien/Tong-Bi-thu-ra-loi-keu-goi-toan-dan-dong-long-phong,-chong-dai-dich-768" title="Tổng Bí thư ra lời kêu gọi toàn dân đồng lòng phòng, chống đại dịch">Tổng Bí thư ra lời kêu gọi toàn dân đồng lòng phòng, chống đại dịch</a><span class="ngaythangtin">(10-10-2021)</span>
+
+                        </td>
+
+
+                    </tr>
+
+                    
+                    <tr>
+
+                        <td style="vertical-align: middle; text-align: justify;">
+                            <span class="material-icons" style="color: #ff6a00; font-size: 7px;">brightness_1
+                            </span>
+                            
+                            <a href="/tin-tuc-su-kien/Xay-dung-truong-hoc-an-toan,-than-thien,-hoa-nhap-cho-hoc-sinh-yeu-the-773" title="Xây dựng trường học an toàn, thân thiện, hòa nhập cho học sinh yếu thế">Xây dựng trường học an toàn, thân thiện, hòa nhập cho học sinh yếu thế</a><span class="ngaythangtin">(10-10-2021)</span>
+
+                        </td>
+
+
+                    </tr>
+
+                    
+                    <tr>
+                        <td style="vertical-align: middle; text-align: right;"><a href="/tin-tuc-su-kien/" title="Xem thêm">Xem thêm</a></td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+
+            
+        </div>
+
+
+        
+        <input type="radio" name="58" id="46" />
+        
+        <label for="46"><span style ="margin-left:-7px">  <span style="font-size:10px;" ><i class="fa fa-clone" aria-hidden="true"></i> &nbsp;</span>Chuyển đối số trong GDĐT</label>
+        <div class="tabnd">
+
+            <!-- Het tieu de Chuyen Muc Loai 2 -->
+            
+        </div>
+
+
+        
+    </div>
+
+    <div style="height: 20px; margin: 0 auto 0 auto; display: block; overflow: hidden; width: 100%;"></div>
+    
+
+    <div style="margin: 0 auto; display: block; overflow: hidden; float: left; width: 100%;">
+
+        <p>
+	<img alt="" src="/Uploads/images/2021/10/Banner_covid.png" style="width: 100%;" /></p>
+
+    </div>
+    <div style="width: 100%; height: 10px; margin: 0 auto; display: block; overflow: auto;"></div>
+    
+    <div class="tabs">
+
+        
+
+        <input type="radio" name="57" id="24" checked="checked">
+        
+        <label for="24"><span style ="margin-left:-7px">  <i class="fa fa-bars" aria-hidden="true"></i>&nbsp;</span> Tin nhà trường</label>
+        <div class="tabnd">
+
+            <!-- Het tieu de Chuyen Muc Loai 2 -->
+            
+
+            <div style="width: 100%; display: block; overflow: hidden; vertical-align: top; float: left; padding-top: 3px;">
+                <table style="width: 100%; border-spacing: 0px; vertical-align: top;">
+
+                    
+                    <tr>
+                        <td style="width: 100%; vertical-align: top; padding-bottom: 5px;">
+                            <table style="width: 100%; border-spacing: 2px 2px;">
+
+                                
+
+                                <tr>
+                                    <td style="text-align: justify; width: 30%; padding-right: 5px; vertical-align: top; padding-top: 5px;">
+                                        <img class="vienanh" src="/Uploads/images/905a1bf8e4c3299d70d2(3).jpg" alt="Ngành Giáo dục Kon Tum thăm và tặng quà Tết giáo viên, học sinh khó khăn" style="width: 100%; height: auto;" />
+
+
+                                    </td>
+                                    <td style="text-align: justify; vertical-align: top; padding-left: 5px;">
+                                        <div style="width: 100%; float: right; display: block; overflow: hidden; margin-bottom: 5px;">
+                                            <a href='/tin-nha-truong/Nganh-Giao-duc-Kon-Tum-tham-va-tang-qua-Tet-giao-vien,-hoc-sinh-kho-khan-1794'><span class="TinChinhMain">Ngành Giáo dục Kon Tum thăm và tặng quà Tết giáo viên, học sinh khó khăn</span></a>
+                                        </div>
+                                       <p class="TomTatMain">GD&TĐ - Những ngày cuối năm, Ngành Giáo dục tỉnh Kon Tum tất bật chăm lo Tết cho giáo viên, học sinh có hoàn cảnh khó khăn. Ngành Giáo dục mong rằng, bước qua năm mới mọi người sẽ vượt khó, vươn lên dạy tốt - học tốt.</p>
+                                        <p class="ngaythangtomtat"><i class="fa fa-calendar" aria-hidden="true" style="margin-right: 3px;"></i>20-1-2022</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 1px;" colspan="2"></td>
+                                </tr>
+                                
+                                <!-- Dong moi-->
+                            </table>
+
+                        </td>
+                    </tr>
+                    
+                    <tr>
+
+                        <td style="vertical-align: middle; text-align: justify;">
+                            <span class="material-icons" style="color: #ff6a00; font-size: 7px;">brightness_1
+                            </span>
+                            
+                            <a href="/tin-nha-truong/Truong-THCS-va-THPT-Lien-Viet-Kon-Tum-to-chuc-Chuong-trinh-Dong-am-1792" title="Trường THCS và THPT Liên Việt Kon Tum tổ chức Chương trình Đông ấm">Trường THCS và THPT Liên Việt Kon Tum tổ chức Chương trình Đông ấm</a><span class="ngaythangtin">(13-1-2022)</span>
+
+                        </td>
+
+
+                    </tr>
+
+                    
+                    <tr>
+
+                        <td style="vertical-align: middle; text-align: justify;">
+                            <span class="material-icons" style="color: #ff6a00; font-size: 7px;">brightness_1
+                            </span>
+                            
+                            <a href="/tin-nha-truong/39;Dong-Am39;-se-chia-yeu-thuong-voi-hoc-sinh-vung-sau,-vung-xa-1788" title="&#39;Đông Ấm&#39; sẻ chia yêu thương với học sinh vùng sâu, vùng xa">&#39;Đông Ấm&#39; sẻ chia yêu thương với học sinh vùng sâu, vùng xa</a><span class="ngaythangtin">(4-1-2022)</span>
+
+                        </td>
+
+
+                    </tr>
+
+                    
+                    <tr>
+
+                        <td style="vertical-align: middle; text-align: justify;">
+                            <span class="material-icons" style="color: #ff6a00; font-size: 7px;">brightness_1
+                            </span>
+                            
+                            <a href="/tin-nha-truong/CHUONG-TRINH-DONG-AM--CUA-TRUONG-THCS-VA-THPT-LIEN-VIET-KON-TUM-1787" title="CHƯƠNG TRÌNH ĐÔNG ẤM  CỦA TRƯỜNG THCS VÀ THPT LIÊN VIỆT KON TUM">CHƯƠNG TRÌNH ĐÔNG ẤM  CỦA TRƯỜNG THCS VÀ THPT LIÊN VIỆT KON TUM</a><span class="ngaythangtin">(3-1-2022)</span>
+
+                        </td>
+
+
+                    </tr>
+
+                    
+                    <tr>
+                        <td style="vertical-align: middle; text-align: right;"><a href="/tin-nha-truong/" title="Xem thêm">Xem thêm</a></td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+
+            
+        </div>
+
+
+        
+        <input type="radio" name="57" id="25" />
+        
+        <label for="25"><span style ="margin-left:-7px">  <span style="font-size:10px;" ><i class="fa fa-clone" aria-hidden="true"></i> &nbsp;</span>Văn hóa - Văn nghệ</label>
+        <div class="tabnd">
+
+            <!-- Het tieu de Chuyen Muc Loai 2 -->
+            
+        </div>
+
+
+        
+        <input type="radio" name="57" id="27" />
+        
+        <label for="27"><span style ="margin-left:-7px">  <span style="font-size:10px;" ><i class="fa fa-clone" aria-hidden="true"></i> &nbsp;</span>Hoạt động Đoàn</label>
+        <div class="tabnd">
+
+            <!-- Het tieu de Chuyen Muc Loai 2 -->
+            
+        </div>
+
+
+        
+        <input type="radio" name="57" id="39" />
+        
+        <label for="39"><span style ="margin-left:-7px">  <span style="font-size:10px;" ><i class="fa fa-clone" aria-hidden="true"></i> &nbsp;</span>Công Đoàn</label>
+        <div class="tabnd">
+
+            <!-- Het tieu de Chuyen Muc Loai 2 -->
+            
+        </div>
+
+
+        
+        <input type="radio" name="57" id="47" />
+        
+        <label for="47"><span style ="margin-left:-7px">  <span style="font-size:10px;" ><i class="fa fa-clone" aria-hidden="true"></i> &nbsp;</span>Chia sẻ trao đổi học tập</label>
+        <div class="tabnd">
+
+            <!-- Het tieu de Chuyen Muc Loai 2 -->
+            
+        </div>
+
+
+        
+    </div>
+
+    <div style="height: 20px; margin: 0 auto 0 auto; display: block; overflow: hidden; width: 100%;"></div>
+    
+
+    <div style="margin: 0 auto; display: block; overflow: hidden; float: left; width: 100%;">
+
+        <div id="lienketwebsite">
+	<div class="tab">
+		<button class="tablinks active" onclick="openCity1(event, &#39;lienketpage&#39;)">LI&Ecirc;N KẾT HỮU &Iacute;CH</button><button class="tablinks" onclick="openCity1(event, &#39;cacdonvipage&#39;)">C&Aacute;C ĐƠN VỊ</button><button class="tablinks" onclick="openCity1(event, &#39;otherpage&#39;)">T&Agrave;I NGUY&Ecirc;N DẠY HỌC</button></div>
+	<!-- Tab content -->
+	<div class="tabcontent active" id="lienketpage">
+		<ul>
+			<li>
+				<a href="https://moet.gov.vn/tintuc/Pages/CT-GDPT-Moi.aspx">Chương tr&igrave;nh gi&aacute;o dục phổ th&ocirc;ng mới</a></li>
+			<li>
+				<a href="https://e-ict.gov.vn/laws/">Văn bản về CNTT trong Gi&aacute;o dục</a></li>
+			<li>
+				<a href="https://csdl.moet.gov.vn/">CSDL ng&agrave;nh Bộ GDĐT</a></li>
+			<li>
+				<a href="https://moet.gov.vn/giaoducquocdan/khao-thi-va-kiem-dinh-chat-luong-giao-duc/Pages/Default.aspx">Quản l&yacute; chất lượng gi&aacute;o dục</a></li>
+			<li>
+				<a href="https://moet.gov.vn/giaoducquocdan/hoi-nhap-quoc-te-ve-gddt/Pages/Default.aspx">Hội nhập quốc tế về GDĐT</a></li>
+			<li>
+				<a href="https://moet.gov.vn/giaoducquocdan/day-va-hoc-ngoai-ngu/Pages/Default.aspx">Dạy v&agrave; học ngoại ngữ</a></li>
+			<br />
+		</ul>
+	</div>
+	<div class="tabcontent" id="cacdonvipage">
+		<ul>
+			<li>
+				<a href="http://kontum.edu.vn/" target="_blank" title="Sở Giáo dục và Đào tạo">Sở Gi&aacute;o dục v&agrave; Đ&agrave;o tạo </a></li>
+			<li>
+				<a href="http://thpt-nguyentatthanh-kontum.edu.vn/" target="_blank" title="Trường THPT chuyên N.T.Thành ">Trường THPT chuy&ecirc;n N.T.Th&agrave;nh </a></li>
+			<li>
+				<a href="thptchuvanan.kontum.edu.vn" target="_blank" title="Trường THPT Chu Văn An">Trường THPT Chu Văn An</a></li>
+			<li>
+				<a href="http://thpt-duytan.kontum.edu.vn/" target="_blank" title="Trường THPT Duy Tân">Trường THPT Duy T&acirc;n</a></li>
+			<li>
+				<a href="http://truongthptleloi.kontum.edu.vn/" target="_blank" title="Trường THPT Lê Lợi">Trường THPT L&ecirc; Lợi</a></li>
+			<li>
+				<a href="http://huyensathay.kontum.gov.vn/" target="_blank" title="Trường Chinh">Trường THPT Trường Chinh</a></li>
+			<li>
+				<a href="https://pbcbt.edu.vn/" target="_blank" title="Trường THPT Phan Bội Châu ">Trường THPT Phan Bội Ch&acirc;u</a></li>
+			<li>
+				<a href="http://thptngomayktd.edu.vn/" target="_blank" title="Trường THPT Ngô Mây">Trường THPT Ng&ocirc; M&acirc;y</a></li>
+			<li>
+				<a href="http://thpttranquoctuan.kontum.edu.vn/" target="_blank" title="Trường THPT Trần Quốc Tuấn">Trường THPT Trần Quốc Tuấn</a></li>
+			<li>
+				<a href="http://thptnguyendu.kontum.edu.vn/" target="_blank" title=" Trường THPT Nguyễn Du">Trường THPT Nguyễn Du</a></li>
+            			<li>
+				<a href="http://thptnguyenvancu.edu.vn/" target="_blank" title="Trường THPT Nguyễn Văn Cừ">Trường THPT Nguyễn Văn Cừ</a></li>
+			<li>
+				<a href="https://thptnguyentraikontum.edu.vn/" target="_blank" title="Trường THPT Nguyễn Trãi">Trường THPT Nguyễn Tr&atilde;i</a></li>
+			<li>
+				<a href="http://thptphanchutrinh.kontum.edu.vn/" target="_blank" title="Trường THPT Phan Chu Trinh">Trường THPT Phan Chu Trinh</a></li>
+			<li>
+				<a href="http://thptluongthevinh.sgdkt.edu.vn/" target="_blank" title="Trường THPT Lương Thế Vinh">Trường THPT Lương Thế Vinh</a></li>
+			<li>
+				<a href="http://phanhieuthptluongthevinh.kontum.edu.vn/" target="_blank" title="Phân hiệu THPT Lương Thế Vinh">Ph&acirc;n hiệu THPT Lương Thế Vinh</a></li>
+			<li>
+				<a href="http://c3kt.kontum.edu.vn/" target="_blank" title="Trường THPT Kon Tum">Trường THPT Kon Tum</a></li>
+			<br />
+		</ul>
+	</div>
+	<div class="tabcontent" id="otherpage">
+		<ul>
+			<li>
+				<a href="https://moet.gov.vn/tintuc/Pages/day-hoc-truc-tuyen.aspx?ItemID=7497" target="_blank" title="Tài nguyên hỗ trợ học tập trực tuyến">T&agrave;i nguy&ecirc;n hỗ trợ học tập trực tuyến</a></li>
+			<li>
+				<a href="https://hanhtrangso.nxbgd.vn/?fbclid=IwAR1QJicJacOTmUIJ_aIFUofKQdGOxHO2ZcwObryAM8wrQj6iAtrWqgLLwjY" target="_blank" title="Sách điện tử Nhà Xuất bản Giáo dục">S&aacute;ch điện tử Nh&agrave; Xuất bản Gi&aacute;o dục</a></li>
+			<li>
+				<a href="https://www.hoc10.com/" target="_blank" title="Học liệu điện tử bộ sách Cánh Diều">Học liệu điện tử bộ s&aacute;ch C&aacute;nh Diều</a></li>
+			<li>
+				<a href="https://igiaoduc.vn/" target="_blank" title="KHO HỌC LIỆU SỐ – HỆ TRI THỨC VIỆT">KHO HỌC LIỆU SỐ &ndash; HỆ TRI THỨC VIỆT</a></li>
+			<li>
+				<a href="http://kontum.edu.vn/bo-sach-giao-khoa-dien-tu-lop-6.html" target="_blank" title="BỘ SÁCH GIÁO KHOA ĐIỆN TỬ TỪ LỚP 1 ĐẾN LỚP 12">&quot;BỘ S&Aacute;CH GI&Aacute;O KHOA ĐIỆN TỬ TỪ LỚP 1 ĐẾN LỚP 12</a></li>
+			<li>
+				<a href="http://olm.vn" target="_blank" title="Học trực tuyến cùng OLM">Học trực tuyến c&ugrave;ng OLM</a></li>
+		</ul>
+	</div>
+</div>
+<script>
+        function openCity1(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+<style type="text/css">
+/* Style the tab */
+        .tab {
+            overflow: hidden;
+           
+            background-color: #fff;
+border-radus:#a1e3f7;box-shadow: 0 5px 3px -3px rgba(0,0,0,0.15);
+width:100%;
+
+        }
+
+            /* Style the buttons inside the tab */
+            .tab button {
+                background-color:#0077de;
+                float: left;
+                color:white;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                transition: 0.3s;
+                font-size: 17px;
+                font-weight:700;
+                letter-spacing:1px;
+                border-top-left-radius:5px;
+border-top-right-radius:5px;
+margin-left:4px;
+            }
+
+                /* Change background color of buttons on hover */
+                .tab button:hover {
+                    background-color: #ddd;
+                    color:#ff0000;
+                }
+
+                /* Create an active/current tablink class */
+                .tab button.active {
+                    background-color:#9f224e;
+                    color:#fff;
+                }
+
+        /* Style the tab content */
+
+        #lienketwebsite {
+            margin-top: 10px;
+            width:100%;
+        }
+
+
+            #lienketwebsite>.tabcontent {
+                border: 1px solid #a1e3f7;
+               
+ padding: 15px;  border-radius:3px;
+ 
+ background-color:#fff;
+    box-shadow: 0 5px 3px -3px rgba(0,0,0,0.15);
+                box-sizing: border-box;
+                position: relative;
+                top: -1px;
+            }
+
+            #lienketwebsite>.tabcontent {
+                display: none;
+            }
+
+                #lienketwebsite>.tabcontent.active {
+                    display: block;
+                }
+
+                #lienketwebsite>.tabcontent>ul {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    display: table;
+                    width: 100%;
+
+                }
+
+                    #lienketwebsite>.tabcontent>ul>li {
+                        line-height: 20px;
+                        margin-bottom: 3px;
+                        width: calc(100% / 3);
+                        box-sizing: border-box;
+                        padding: 0 15px;
+                        float: left;
+                    }
+                     #lienketwebsite>.tabcontent>ul>li>a {
+                       
+                        float: left;
+                        color:blue;
+                    }
+                        #lienketwebsite .tabcontent ul li:nth-child(3n + 1) {
+                            clear: both;
+                        }
+
+                        #lienketwebsite .tabcontent ul li a i {
+                            font-size: 11px;
+                            margin-right: 3px;
+                            vertical-align: middle;
+                            display: inline-block;
+                            position: relative;
+                            top: -1px;
+float:left;
+                        }
+
+                        #lienketwebsite .tabcontent ul li a:hover {
+                            color: #0375bc;
+                        }
+@media screen and (max-width: 600px) {
+#lienketwebsite>.tabcontent>ul>li {
+                                               width: 100%;
+                                           }
+
+
+}</style>
+
+    </div>
+    <div style="width: 100%; height: 10px; margin: 0 auto; display: block; overflow: auto;"></div>
+    
+</div>
+                      
+                        
+<div style=" width: 100%; display: block; overflow: hidden;">
+    <div class="TopModul">
+
+     <i class="material-icons" style="color:#fff;margin-left:3px;float:left;margin-right:3px;line-height:22px;">
+library_books
+</i>
+        <span class="TopModulText">VĂN BẢN MỚI BAN HÀNH</span>
+    </div>
+
+
+
+    <div style="box-shadow: 0 5px 3px -3px rgba(0,0,0,0.15); width: 100%; display: block; overflow: hidden; margin-top:5px;">
+
+        <table class="tableVBM">
+            <tr style="background-color: #f2f2f2;">
+                <td style="width: 15%; height: 26px; text-align: center;">
+                    <span class="VbInfoVB">Số/Ký hiệu</span></td>
+                <td style="width: 15%; height: 26px; text-align: center;"><span class="VbInfoVB">Ngày
+                                    ban hành</span></td>
+                <td style="height: 26px; text-align: center;">
+                    <span class="VbInfoVB">Trích yếu</span></td>
+                <td style="height: 26px; text-align: center; width: 10%;">
+                    <span class="VbInfoVB">Tải về</span></td>
+            </tr>
+            
+            <tr style="background-color: #fff;">
+                <td style="width: 15%;"><span class="VbInfoSub">3825/UBND-KGVX</span> </td>
+                <td style="width: 15%;"><span class="VbInfoSub">24/10/2021
+                </span>
+                </td>
+                <td style="text-align:justify;padding:2px;"><a href="/VBDetail.aspx?idVB=16">Triển khai các biện pháp hành chính phòng, chống dịch COVID-19 trên địa bàn thành phố Kon Tum</a></td>
+                                <td style="text-align: center;"><a href="/Uploads/files/UB-trien-khai-bien-phap-hanh-chinh-phong-chong-dich-tren-dia-ban-TP-KT.pdf">
+                   <i class="material-icons" style="color:#0094ff;">get_app</i></td>
+            </tr>
+
+            
+            <tr style="background-color: aliceblue;">
+                <td style="width: 15%;"><span class="VbInfoSub">3819/KH-UBND</span> </td>
+                <td style="width: 15%;"><span class="VbInfoSub">23/10/2021
+                </span>
+                </td>
+                <td style="text-align:justify;padding:2px;"><a href="/VBDetail.aspx?idVB=17">Triển khai thực hiện Nghị quyết số 128/NQ-CP ngày 11 tháng 10 năm 2021 của Chính phủ về ban hành Quy định tạm thời “Thích ứng an toàn, linh hoạt, kiểm soát hiệu quả dịch COVID-19</a></td>
+                <td style="text-align: center;"><a href="/Uploads/files/KH-trien-khai-NQ-128-ve-thich-ung-linh-hoat-kiem-soat-dich-COV-ngay-23-10-2021.pdf">
+                     <i class="material-icons" style="color:#0094ff;">get_app</i></a></td>
+            </tr>
+            
+            <tr style="background-color: #fff;">
+                <td style="width: 15%;"><span class="VbInfoSub">48-CV/BTCHU</span> </td>
+                <td style="width: 15%;"><span class="VbInfoSub">2/11/2020
+                </span>
+                </td>
+                <td style="text-align:justify;padding:2px;"><a href="/VBDetail.aspx?idVB=15">Về việc thông báo thi tuyện dụng công chức năm  2020</a></td>
+                <td style="text-align: center;"><a href="/Uploads/files/VanBan/2020/cv%2048.pdf">
+                   <i class="material-icons" style="color:#0094ff;">get_app</i></td>
+            </tr>
+
+            
+            <tr style="background-color: aliceblue;">
+                <td style="width: 15%;"><span class="VbInfoSub">295/UBND-CV</span> </td>
+                <td style="width: 15%;"><span class="VbInfoSub">14/4/2017
+                </span>
+                </td>
+                <td style="text-align:justify;padding:2px;"><a href="/VBDetail.aspx?idVB=14">Về việc thực hiện một số nội dung trọng tâm trong công tác quản lý nhà nước về thanh niên năm 2017 trên địa bàn huyện</a></td>
+                <td style="text-align: center;"><a href="/Uploads/files/VanBan/2017/cv%20295-2017.PDF">
+                     <i class="material-icons" style="color:#0094ff;">get_app</i></a></td>
+            </tr>
+            
+            <tr style="background-color: #fff;">
+                <td style="width: 15%;"><span class="VbInfoSub">131/QĐ-UBND</span> </td>
+                <td style="width: 15%;"><span class="VbInfoSub">8/3/2017
+                </span>
+                </td>
+                <td style="text-align:justify;padding:2px;"><a href="/VBDetail.aspx?idVB=13">Về việc phân công nhiệm vụ của Chủ tịch, các Phó Chủ tịch Ủy ban nhân dân huyện nhiệm kỳ 2016-2021</a></td>
+                <td style="text-align: center;"><a href="/Uploads/files/VanBan/2017/qd%20131-2017.PDF">
+                   <i class="material-icons" style="color:#0094ff;">get_app</i></td>
+            </tr>
+
+            
+        </table>
+
+    </div>
+</div>
+<style>
+    .TopModulVB {
+        border-bottom: 1px solid #fff;
+        text-align: left;
+        background: rgba(0,0,0,0.15);
+        background: -moz-linear-gradient(top, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,0.15) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.15)), color-stop(50%, rgba(0,0,0,0.15)), color-stop(100%, rgba(0,0,0,0.15)));
+        background: -webkit-linear-gradient(top, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,0.15) 100%);
+        background: -o-linear-gradient(top, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,0.15) 100%);
+        background: -ms-linear-gradient(top, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,0.15) 100%);
+        background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,0.15) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b77b0', endColorstr='#4b77b0', GradientType=0 );
+        height: 30px;
+        padding-top: 8px;
+        padding-left: 3px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+
+    .tableVBM {
+        /*border-collapse: collapse;*/
+        border: 1px solid #0094ff;
+        width: 100%;
+        
+    }
+
+        .tableVBM tr {
+            border-bottom: 0px solid #0094ff;
+        }
+
+            .tableVBM tr td {
+                border: 0px solid #0094ff;
+            }
+
+    .VbInfoVB {
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 13px;
+    }
+</style>
+<div style="height: 10px;"></div>
+
+                        <!-- Trang chinh -->
+                        
                     </div>
-                    <div class="profile-below">
-                        <div class="left">
-                            <div class="intro">
-                                <p>
-                                    <marquee behavior="slide" direction="up" scrollamount="2">
-                                        <h3><u>Infomation</u></h3>
-                                    </marquee>
+                </div>
+                <div class="rightweb">
+                    
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 
-                                    <marquee behavior="slide" scrollamount="12">
-                                 
-                                        <i class="fas fa-graduation-cap"></i>
-                                      <a href= "    https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%8Dc_Harvard "target="_blank"> 
-                                                      <i> ĐH Harvard, ElonMusk Pú Cặc Cho Tao </i>
-                                        </a>
-                                    </marquee>
-                                    <marquee behavior="slide" scrollamount="11">
-                                        <i class="fa fa-briefcase"></i>
-                                        <i>Hacker</i>
+<div style="width: 100%; display: block;">
+  <a href="/nghien-cuu-khoa-hoc/"><img src="../Image/nckh.png" height="auto" width="100%" /></a>   
+   
+</div>
+<div style="width: 100%; display: block;">
+  <a href="/hoi-thao-khoa-hoc/"><img src="../Image/htkh.png" height="auto" width="100%" /></a>   
+   
+</div>
+<div style="width: 100%; display: block;">
+  <a href="/an-pham-khoa-hoc/"><img src="../Image/anphamso.png" height="auto" width="100%" /></a>   
+   
+</div>
+<div style="width: 100%; height: 5px; margin: 0 auto 0 auto;display:block;overflow:hidden;"></div>
 
-                                    </marquee>
-                                    <marquee behavior="slide" scrollamount="10">
 
-                                        <i class="fas fa-birthday-cake"></i>
-                                      <a href= "https://you.regettingold.com/25/09/2005/" target="_blank" >
-                                        <i>25/09</i>
-                                        </a>
-                                    </marquee>
-                                    <marquee behavior="slide" scrollamount="9">
+                      
+<div class="BorderModul">
+    <div class="TopModul">
+        <i class="material-icons" style="font-size: 22px; color: #fff; float: left; margin-right: 5px;">info</i>
+        <span class="TopModulText">THÔNG BÁO</span>
+    </div>
+    <div style="width: 100%; vertical-align: top;">
+        <marquee onmouseover="this.stop()" style="width: 100%; height: 290px;" onmouseout="this.start()" scrollamount="2" direction="up">
 
-                                        <i class="fas fa-at"></i>
-                                      
-                                           <a href= "         https://giadeptrai2077@gmail.com@gmail.com "target="_blank"
-                                           >
-                                        <i>giadeptrai2077@gmail.com</i>
-                                        </a>
+            
 
-                                    </marquee>
-                                    <marquee behavior="slide" scrollamount="8">
+            <div style="vertical-align: middle; width: 98%; text-align: justify; display: block; overflow: hidden; padding: 5px; padding-left: 0px; border-bottom: 1px dotted #ccc;">
+                <a href="/thong-bao-chung/Thong-bao-duong-link-va-huong-dan-nop-du-an-khoa-hoc-ky-thuat-nam-2022-1781"><span style="text-align: justify; float: left; margin-left: 3px; font: 400 13px 'Roboto'; line-height: 22px; width: 100%;"><i class="fa fa-volume-up" aria-hidden="true" style="color: #ff0000; font-size: 13px; float: left; margin-top: 3px; margin-right: 3px; line-height: 16px;"></i>Thông báo đường link và hướng dẫn nộp dự án khoa học kỹ thuật năm 2022<span class="ngaythangtin">(15-12-2021)</span></span>
+                </a>
 
-                                        <i class="fa fa-address-book"></i>
-                                        <i>0948461545</i>
+            </div>
 
-                                    </marquee>
-                                    <marquee behavior="slide" scrollamount="7">
 
-                                        
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <i>Cộng Hòa Nhân Dân Hoa Kì</i>
-                                    </marquee>
-                                </p>
-                            </div>
-                            <a class="follow" href="https://www.facebook.com/profile.php?id=100076282601962" target="blank" title="Follow">Follow</a>
-                        </div>
-                        <div class="right">
-                            <div class='description'>
-                                <marquee direction="up" scrollamount="4" style="height:300px">
-                                    <h3>Say hi,</h3>
-                                    <p>
-                                        My name is Phan Hoang Gia
-                                    </p>
-                                    <p>
-                                      Tôi là một học sinh trung học, tôi yêu mẹ bạn.<br>tôi đến từ CHND Trung Hoa.<br>Tôi sở hữu Vô Hạn Social Credit Score
-                                    </p>
-                                    <p>
-                                        Một trong nhưng câu nói yêu thích nhất của tôi là: <br>"妈的混蛋他妈的你这个荡妇妈的混蛋,<br> 你有一个鸡巴操你妈妈 ".
-                                    </p>
-                                    <p style="text-align:center;">
-                                    </p>
-                                    <br><h3>Xin chào,</h3>
-                                    <p>
-                                        My name is Phan Hoang Gia
-                                    </p>
-                                    <p>
-                                       What you know about rollin' down in the deep?<br>When your brain goes numb, you can call that mental freeze<br>When these people talk too much, put that shit in slow motion, yeah
-                                    </p>
-                                    <p>
-                                        Một trong những câu nói tôi thích nhất là: Good morning, China.<br> I like your mom very much".
-                                    </p>
-                                    <p style="text-align:center;">
+            
 
-                                        <img src="https://i.imgur.com/tPCcxub.jpg?1" style="width:300px;height:225px">
-                                    </p>
-                                </marquee>
-                            </b>
-                            <p style="text-align:center;">
+            <div style="vertical-align: middle; width: 98%; text-align: justify; display: block; overflow: hidden; padding: 5px; padding-left: 0px; border-bottom: 1px dotted #ccc;">
+                <a href="/thong-bao-chung/Thong-bao-duong-link-nop-bai-thi-Elearning-truc-tuyen-770"><span style="text-align: justify; float: left; margin-left: 3px; font: 400 13px 'Roboto'; line-height: 22px; width: 100%;"><i class="fa fa-volume-up" aria-hidden="true" style="color: #ff0000; font-size: 13px; float: left; margin-top: 3px; margin-right: 3px; line-height: 16px;"></i>Thông báo đường link nộp bài thi Elearning trực tuyến<span class="ngaythangtin">(10-10-2021)</span></span>
+                </a>
 
-                                <img id="imgur" src="https://i.imgur.com/5d8kvgG.gif" style="width: 300px; height:150px">
-                                <script>
-                                    $('#imgur').gifplayer({
-                                        mode: 'video', webm: 'https://imgur.com/SS4TMB4.webm', mp4: 'https://i.imgur.com/5d8kvgG.gif'
-                                    });
-                                </script>
-                            </p>
+            </div>
 
-                        </div>
 
-                        <ul class="link">
-                            <li>
-                                <a href="https://www.facebook.com/profile.php?id=100076282601962/" target="blank" title="Facebook"><i class="fab fa-facebook-square"></i></a>
-                            </li>
-                                              
-                            <li>
-                                <a href="https://zalo.me/0564625307/" target="blank" title="Zalo"><i class="fab fa-gg"></i></a>
-                            </li>
-                           
-                           </ul>
-                    </div>
+            
+
+            <div style="vertical-align: middle; width: 98%; text-align: justify; display: block; overflow: hidden; padding: 5px; padding-left: 0px; border-bottom: 1px dotted #ccc;">
+                <a href="/thong-bao-chung/Thong-bao-ve-viec-thay-doi-dia-chi-trang-thong-tin-dien-tu-Truong-THCS-va-THPT--Lien-Viet-Kon-Tum-769"><span style="text-align: justify; float: left; margin-left: 3px; font: 400 13px 'Roboto'; line-height: 22px; width: 100%;"><i class="fa fa-volume-up" aria-hidden="true" style="color: #ff0000; font-size: 13px; float: left; margin-top: 3px; margin-right: 3px; line-height: 16px;"></i>Thông báo về việc thay đổi địa chỉ trang thông tin điện tử Trường THCS và THPT  Liên Việt Kon Tum<span class="ngaythangtin">(10-10-2021)</span></span>
+                </a>
+
+            </div>
+
+
+            
+
+            <div style="vertical-align: middle; width: 98%; text-align: justify; display: block; overflow: hidden; padding: 5px; padding-left: 0px; border-bottom: 1px dotted #ccc;">
+                <a href="/thong-bao-chung/Thi-tim-hieu-luat-Canh-sat-bien-Viet-Nam-767"><span style="text-align: justify; float: left; margin-left: 3px; font: 400 13px 'Roboto'; line-height: 22px; width: 100%;"><i class="fa fa-volume-up" aria-hidden="true" style="color: #ff0000; font-size: 13px; float: left; margin-top: 3px; margin-right: 3px; line-height: 16px;"></i>Thi tìm hiểu luật Cảnh sát biển Việt Nam<span class="ngaythangtin">(13-9-2021)</span></span>
+                </a>
+
+            </div>
+
+
+            
+
+            <div style="vertical-align: middle; width: 98%; text-align: justify; display: block; overflow: hidden; padding: 5px; padding-left: 0px; border-bottom: 1px dotted #ccc;">
+                <a href="/thong-bao-chung/Cuoc-thi-Thiet-ke-bai-giang-dien-tu-nam-hoc-2021-2022-713"><span style="text-align: justify; float: left; margin-left: 3px; font: 400 13px 'Roboto'; line-height: 22px; width: 100%;"><i class="fa fa-volume-up" aria-hidden="true" style="color: #ff0000; font-size: 13px; float: left; margin-top: 3px; margin-right: 3px; line-height: 16px;"></i>Cuộc thi Thiết kế bài giảng điện tử năm học 2021-2022<span class="ngaythangtin">(29-9-2021)</span></span>
+                </a>
+
+            </div>
+
+
+            
+        </marquee>
+    </div>
+</div>
+
+<div style="height: 10px;"></div>
+
+                      
+<style>
+    iframe {
+        max-width: 100%;
+        height: auto;
+        width:100%;
+    }
+</style>
+
+<div class="BorderModul" >
+     <div class="LienKetCMOut">
+       <i class="material-icons" style="font-size:22px;color:#ff6a00;float:left;">play_circle_filled</i>
+            <span class="LienKetCMText" >THƯ VIỆN VIDEOS</span>
+    </div>
+ 
+
+    <div style="width: 100%;  vertical-align: top; background-color: #fff; display: block; overflow: hidden;">
+        <div style="width: 100%; display: block; overflow: hidden;">
+            <p>
+	<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="400" scrolling="no" src="https://www.youtube.com/embed/94Fe9465FNs" width="560"></iframe></p>
+
+        </div>
+        <div style="width: 100%; display: block; overflow: hidden;">
+            
+            <div style="width: 100%; display: block; overflow: hidden; padding: 3px;">
+                <span class="material-icons"  style="color: #ff6a00; font-size: 7px;">
+brightness_1
+</span>
+               
+                <a href="/viewvideoclip/?id=17" style="">Bài hát Trường Liên Việt Kon Tum</a>
+            </div>
+            
+            <div style="width: 100%; display: block; overflow: hidden; padding: 3px;">
+                <span class="material-icons"  style="color: #ff6a00; font-size: 7px;">
+brightness_1
+</span>
+               
+                <a href="/viewvideoclip/?id=18" style="">Giới thiệu về Trường THCS - THPT Liên Việt Kon Tum</a>
+            </div>
+            
+            <div style="width: 100%; display: block; overflow: hidden; padding: 3px;">
+                <span class="material-icons"  style="color: #ff6a00; font-size: 7px;">
+brightness_1
+</span>
+               
+                <a href="/viewvideoclip/?id=19" style="">Chương trình đông ấm số 7 tại Trung tâm Bảo  trợ xã hội tỉnh</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div style="height: 10px; width: 100%;"></div>
+
+                     
+<div class="BorderModul">
+       <div class="LienKetCMOut">
+       <i class="material-icons" style="font-size:22px;color:#ff6a00;float:left;">monochrome_photos</i>
+            <span class="LienKetCMText" >THƯ VIỆN HÌNH ẢNH</span>
+    </div>
+    <div class="news-list">
+        <div class="ol-slide-news slider-news-hot">
+            
+            <div class="item">
+
+                <a class="img" href="/ImageClip.aspx?id=16" title="Khai Giảng năm học 2019 -2020">
+                    <img src="/Uploads/images/4-kh19-20.jpg" alt="Khai Giảng năm học 2019 -2020"></a>
+               
+            </div>
+            
+            <div class="item">
+
+                <a class="img" href="/ImageClip.aspx?id=17" title="HOẠT ĐỘNG HỌC TẬP CỦA HỌC SINH">
+                    <img src="/Uploads/images/10_3.jpg" alt="HOẠT ĐỘNG HỌC TẬP CỦA HỌC SINH"></a>
+               
+            </div>
+            
+            <div class="item">
+
+                <a class="img" href="/ImageClip.aspx?id=18" title="Hội nghị CBVC năm học 2020-2021">
+                    <img src="/Uploads/images/z2948836513472_4356dbe4b03947aca010f04316ef8d44.jpg" alt="Hội nghị CBVC năm học 2020-2021"></a>
+               
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".slider-news-hot").owlCarousel({
+
+            //Set AutoPlay to 3 seconds
+            autoPlay: true,
+            autoplayTimeout: 500,
+            autoplayHoverPause: true,
+            loop: true,
+            items: 1,
+            itemsDesktop: [1199, 1],
+            itemsDesktopSmall: [980, 1],
+            itemsTablet: [768, 1],
+            itemsMobile: [479, 1],
+            responsive: true,
+            responsiveRefreshRate: 200,
+            responsiveBaseWidth: window,
+            pagination: false,
+            paginationNumbers: false,
+            navigation: true,
+            navigationText: ["prev", "next"],
+        });
+
+    })
+
+    //$(".top-content-right").addClass("ver2");
+
+</script>
+
+                    
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+<div style="width: 100%; display: block;">
+    <div style="background-color: #fff; width: 100%; border: 1px solid #ccc;padding:2px;box-shadow: 0 5px 3px -3px rgba(0,0,0,0.15);display:block;overflow:hidden;margin-top:10px;margin-bottom:10px;">
+	<div class="TopModul">
+		<i class="material-icons" style="font-size: 22px; color:#fff; float: left; margin-right: 5px;">info</i><span class="TopModulText">TRUY CẬP NHANH</span></div>
+	<div style="width: 100%;  vertical-align: top; background-color: #fff; display: block; overflow: hidden;">
+		<div style="width: 100%; display: block; overflow: hidden;">
+			<div style="width: 100%; display: block; overflow: hidden; padding: 3px;">
+				<span class="material-icons" style="color: #ff0000; font-size: 7px;">brightness_1&nbsp;&nbsp;</span><a href="/lich-cong-tac/">Lịch c&ocirc;ng t&aacute;c&nbsp;</a></div>
+			<div style="width: 100%; display: block; overflow: hidden; padding: 3px;">
+				<span class="material-icons" style="color: #ff0000; font-size: 7px;">brightness_1&nbsp;&nbsp;</span><a href="https://tkb.lienvietkontum.edu.vn/">Thời Kh&oacute;a biểu</a></div>
+			<div style="width: 100%; display: block; overflow: hidden; padding: 3px;">
+				<span class="material-icons" style="color: rgb(255, 0, 0); font-size: 7px;">brightness_1&nbsp;&nbsp;</span><a href="/de-kiem-tra/">Đểm kiểm tra</a></div>
+			<div style="width: 100%; display: block; overflow: hidden; padding: 3px;">
+				<span class="material-icons" style="color: rgb(255, 0, 0); font-size: 7px;">brightness_1&nbsp;&nbsp;</span><a href="/ket-qua-hoc-tap/">Đểm&nbsp;thi</a></div>
+			<div style="width: 100%; display: block; overflow: hidden; padding: 3px;">
+				<span class="material-icons" style="color: rgb(255, 0, 0); font-size: 7px;">brightness_1&nbsp;<a href="/ban-lao-dong">&nbsp;</a></span><a href="/ban-lao-dong/">Kế hoạch Ban lao động</a></div>
+			<div style="width: 100%; display: block; overflow: hidden; padding: 3px;">
+				<span class="material-icons" style="color: rgb(255, 0, 0); font-size: 7px;">brightness_1<a href="#">&nbsp;</a></span><a href="/thi-dua-cac-lop/">Thi đua c&aacute;c lớp</a></div>
+			<div style="width: 100%; display: block; overflow: hidden; padding: 3px;">
+				<span class="material-icons" style="color: rgb(255, 0, 0); font-size: 7px;">brightness_1&nbsp;&nbsp;</span><a href="/ban-ne-nep/">Kế hoạch Ban nề nếp</a></div>
+			<div style="width: 100%; display: block; overflow: hidden; padding: 3px;">
+				<span class="material-icons" style="color: #ff0000; font-size: 7px;">brightness_1 </span> <a href="https://kontum.vnptioffice.vn/qlvbdh_ktm/main?lang=vi">Hệ thống quản l&yacute; văn bản VNPT-iOffice</a></div>
+			<div style="width: 100%; display: block; overflow: hidden; padding: 3px;">
+				<span class="material-icons" style="color: #ff0000; font-size: 7px;">brightness_1 </span> <a href="http://thucongvu.kontum.gov.vn">Thư điện tử c&ocirc;ng v</a>ụ</div>
+		</div>
+	</div>
+</div>
+<div style="width: 100%; display: block;">
+	<div style="width: 100%; background-color: #fff;">
+		<img alt="" src="/Uploads/images/2021/10/banner_dhtt.png" style="width: 100%;" />
+		<table style="border-spacing: 0px 0px; width: 100%;">
+			<tbody>
+				<tr>
+					<td style="vertical-align:middle;text-align:center; align-content:center;">
+						<img alt="" src="/Uploads/images/2021/10/Banner_doimoi.png" style="width: 100%;" /></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<div style="width:100%;display:block;overflow: hidden;">
+	&nbsp;</div>
+
+
+    
+</div>
+<div style="width: 100%; height: 5px; margin: 0 auto 0 auto;display:block;overflow:hidden;"></div>
+
+                     
+
+                    
+          
+ <style type="text/css">
+        .jobs-well {
+            padding: 3px;
+            /*margin: 3px 0;*/
+     border-bottom: 1px solid #cdcdcd;
+       
+            /*border-left-width: 5px;*/
+            /*border-radius: 3px;*/
+            /*border-left-color:#6e94f6;*/
+            text-align:justify;
+            float:left;
+        }
+
+            .jobs-well h4 {
+                color: #0288d1;
+            }
+
+            .model{
+
+               
+                 width: 105%;
+                
+                   max-height:300px;
+          
+                 overflow-y:scroll;
+                 overflow-x:hidden;
+
+            }
+            .ngaythangtin1 {
+    font: 400 10px/22px 'Roboto',sans-serif;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.3);
+    float:right;
+}
+    </style>
+<div class="BorderModul">
+    <div class="TopModul">
+        <i class="material-icons" style="font-size: 22px; color: #fff; float: left; margin-right: 5px;">info</i>
+        <span class="TopModulText">TIN TỨC TỪ SỞ GDĐT</span>
+    </div>
+    <div class="model">
+ 
+                                    <div class="jobs-well">
+                                        <a href='http://kontum.edu.vn/thong-bao-tinh-hinh-dich-benh-so-143-cua-bcd-phong-chong-dich-tinh-kon-tum.html' target="_blank"> <span style="color:red"><i class="fa fa-sign-in" aria-hidden="true"></i></span>  Thông báo tình hình dịch bệnh số 143 của BCĐ Phòng chống dịch tỉnh Kon Tum
+                                        <div class ="ngaythangtin1"> 1/27/2022 10:25:21 AM</div> </a> 
+                                       
+
+                                     
+                                    </div>
+                                
+                                    <div class="jobs-well">
+                                        <a href='http://kontum.edu.vn/thong-bao-tinh-hinh-dich-benh-so-145-cua-bcd-phong-chong-dich-tinh-kon-tum.html' target="_blank"> <span style="color:red"><i class="fa fa-sign-in" aria-hidden="true"></i></span>  Thông báo tình hình dịch bệnh số 145 của BCĐ Phòng chống dịch tỉnh Kon Tum
+                                        <div class ="ngaythangtin1"> 1/27/2022 8:37:23 AM</div> </a> 
+                                       
+
+                                     
+                                    </div>
+                                
+                                    <div class="jobs-well">
+                                        <a href='http://kontum.edu.vn/hoi-nghi-truc-tuyen-trien-khai-nhiem-vu-trong-tam-nam-2022.html' target="_blank"> <span style="color:red"><i class="fa fa-sign-in" aria-hidden="true"></i></span>  Hội nghị trực tuyến triển khai nhiệm vụ trọng tâm năm 2022
+                                        <div class ="ngaythangtin1"> 1/26/2022 3:37:05 PM</div> </a> 
+                                       
+
+                                     
+                                    </div>
+                                
+                                    <div class="jobs-well">
+                                        <a href='http://kontum.edu.vn/ban-giao-bo-cong-chieng-cho-truong-ptdtnt-huyen-dak-glei-va-truong-ptdtnt-huyen-dak-to.html' target="_blank"> <span style="color:red"><i class="fa fa-sign-in" aria-hidden="true"></i></span>  Bàn giao bộ cồng chiêng cho trường PTDTNT huyện Đăk Glei và trường PTDTNT huyện Đăk Tô
+                                        <div class ="ngaythangtin1"> 1/26/2022 3:12:04 PM</div> </a> 
+                                       
+
+                                     
+                                    </div>
+                                
+                                    <div class="jobs-well">
+                                        <a href='http://kontum.edu.vn/hoi-nghi-trien-khai-nhiem-vu-trong-tam-nam-2022.html' target="_blank"> <span style="color:red"><i class="fa fa-sign-in" aria-hidden="true"></i></span>  Hội nghị triển khai nhiệm vụ trọng tâm năm 2022
+                                        <div class ="ngaythangtin1"> 1/24/2022 9:35:41 AM</div> </a> 
+                                       
+
+                                     
+                                    </div>
+                                
+                                    <div class="jobs-well">
+                                        <a href='http://kontum.edu.vn/37693.html' target="_blank"> <span style="color:red"><i class="fa fa-sign-in" aria-hidden="true"></i></span>  BÁO CÁO SƠ KẾT HỌC KỲ I, NĂM HỌC 2021 -2022 CẤP MẦM NON – TIỂU HỌC
+                                        <div class ="ngaythangtin1"> 1/22/2022 8:48:52 AM</div> </a> 
+                                       
+
+                                     
+                                    </div>
+                                
+                                    <div class="jobs-well">
+                                        <a href='http://kontum.edu.vn/hoi-nghi-can-bo-cong-chuc-vien-chuc-va-nguoi-lao-dong-nam-2022.html' target="_blank"> <span style="color:red"><i class="fa fa-sign-in" aria-hidden="true"></i></span>  Hội nghị cán bộ, công chức, viên chức và người lao động năm 2022
+                                        <div class ="ngaythangtin1"> 1/22/2022 8:09:34 AM</div> </a> 
+                                       
+
+                                     
+                                    </div>
+                                
+                                    <div class="jobs-well">
+                                        <a href='http://kontum.edu.vn/hoi-nghi-tong-ket-10-nam-thuc-hien-quyet-dinh-so-995qd-ttg-ngay-2462010-cua-thu-tuong-chinh-phu-phe-duyet-de-an-phat-trien-truong-thpt-chuyen-giai-doan-2010-2020.html' target="_blank"> <span style="color:red"><i class="fa fa-sign-in" aria-hidden="true"></i></span>  Hội nghị tổng kết 10 năm thực hiện Quyết định số 995/QĐ-TTg ngày 24/6/2010 của Thủ tướng chính phủ phê duyệt Đề án Phát triển trường THPT chuyên giai đoạn 2010-2020
+                                        <div class ="ngaythangtin1"> 1/21/2022 3:48:47 PM</div> </a> 
+                                       
+
+                                     
+                                    </div>
+                                
+                                    <div class="jobs-well">
+                                        <a href='http://kontum.edu.vn/bao-cao-cac-truong-hop-duong-tinh-voi-sars-cov-2-ca-be%cc%a3nh-tu-1606-den-1643.html' target="_blank"> <span style="color:red"><i class="fa fa-sign-in" aria-hidden="true"></i></span>  Báo cáo Các trường hợp dương tính (+) với SARS-CoV-2 (Ca bệnh từ 1606 đến 1643)
+                                        <div class ="ngaythangtin1"> 1/21/2022 2:46:47 PM</div> </a> 
+                                       
+
+                                     
+                                    </div>
+                                
+                                    <div class="jobs-well">
+                                        <a href='http://kontum.edu.vn/bao-cao-cac-truong-hop-duong-tinh-voi-sars-cov-2-ca-be%cc%a3nh-tu-1485-den-1545-2.html' target="_blank"> <span style="color:red"><i class="fa fa-sign-in" aria-hidden="true"></i></span>  Báo cáo Các trường hợp dương tính (+) với SARS-CoV-2 (Ca bệnh từ 1485 đến 1545)
+                                        <div class ="ngaythangtin1"> 1/21/2022 2:44:35 PM</div> </a> 
+                                       
+
+                                     
+                                    </div>
+                                
+    </div>
+    </div>
+
+
                 </div>
             </div>
         </div>
-        <div style="display:none">
-            <audio id="audio" src="https://cdn.glitch.me/509aaa3a-8801-4b16-921f-62dea1ba130d%2Fyt5s.com%20-%20KANA-BOON%20-%20Silhouette%20x%20Naruto%20Shippuden%20Opening%2016%20_%20but%20it's%20lofi%20hip%20hop%20cover%20(128%20kbps).mp3?v=1636897359949" controls="controls" autoplay></audio>
+
+        
+<div style="width: 100%; margin: 0 auto 0 auto; display: block; height: 5px;"></div>
+<div style="margin: 0 auto 0 auto; width: 100%; display: block; overflow: hidden;">
+    <div class="divmain">
+        <table style="width: 100%; border-spacing: 0px 0px; margin: 0 auto; border-spacing: 0 0;">
+            <tr>
+                <td style="width: 100%; height: 35px; text-align: right; vertical-align: middle;">
+                    <a href="/trangchu/"><span style="font-family: 'Roboto', sans-serif; font-size: 10pt; font-weight: 600; margin-right: 10px;">Trang chủ</span></a>
+                    <a href="/dangnhap/"><span style="font-family: 'Roboto', sans-serif; font-size: 10pt; font-weight: 600;">Đăng nhập</span></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div style="width: 100%; background-image: url(/Image/bottom_bg.png); background-repeat: repeat-x; height:35px"></div>
+<div style="width: 100%; display: block; background-image: url(/Image/nenfoot.png); overflow: hidden; background-size: cover;">
+    <div style="display: block; overflow: hidden; width: 100%;padding-bottom:15px;">
+        <div class="divmain">
+            <div style="height: 120px; width: 120px; display: block; margin-top: 20px; overflow: hidden; position: absolute; float: right;">
+                <img src="/image/logolv.png" id="logoquochuy" style="float: left; width: 120px;" />
+            </div>
+
+
+            <div class="ThongTinFoot">
+                
+                <div class="FootThongTin">
+                    <div class="FootThongTin">
+	<p>
+		&nbsp;</p>
+	<div class="FootThongTin">
+		<h5>
+			TRANG TH&Ocirc;NG TIN ĐIỆN TỬ TRƯỜNG THCS VÀ THPT LI&Ecirc;N VIỆT KON TUM</h5>
+	</div>
+	<div class="FootThongTin">
+		<h6>
+			Cơ quan chủ quản: Trường THCS và THPT Li&ecirc;n Việt Kon Tum</h6>
+	</div>
+	<div class="FootThongTin">
+		<h6>
+			Người chịu tr&aacute;ch nhiệm ch&iacute;nh: TS. L&ecirc; Đắc Tường - Hiệu trưởng</h6>
+	</div>
+	<div class="FootThongTin">
+		<h6>
+			<i class="fa fa-address-book-o" aria-hidden="true"></i>&nbsp; Phường L&ecirc; Lợi - Th&agrave;nh phố Kon Tum - Kon Tum&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp; 02603 833 234&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fa fa-envelope-open-o" aria-hidden="true"></i> &nbsp;thcs-thptlienvietkontum@kontum.edu.vn</h6>
+	</div>
+	<div class="FootThongTin">
+		<h6>
+			Bản quyền thuộc về Bố Mày Li&ecirc;</h6>
+	</div>
+</div>
+<p>
+	&nbsp;</p>
+
+                    
+                    <h6>
+                        <span class="NguoiTruyCapCount">
+                            54207
+                            </span><span class="NguoiTruyCap">Tổng số người truy cập:</span>
+                        <span class="NguoiTruyCapCount">3</span>  <span class="NguoiTruyCap">Số người online:</span>
+                    </h6>
+                </div>
+
+            </div>
         </div>
-        <script> 
-            document.addEventListener('keydown', function (event) {
-                if (event.keyCode === 13) {
-                    play();
-                }
-            })
-            document.addEventListener('mousemove', play)
-            document.addEventListener('mouseup', play)
-            document.addEventListener('mousedown', play)
-            document.addEventListener('click', play)
-            function play() {
-                document.getElementById('audio').play();
-            }
-        </script>
-    </style>
-</script>
-</script>
-<p style="text-align:center;">
-copyright © 2022 ducfukboiz(recode by blacknooby).<br>All rights reserved.
-</p>
-</php>
+
+    </div>
+</div>
+<div style="width: 100%; display: block; overflow: hidden; padding: 5px; max-width: 1200px; margin: 0 auto;">
+    <a href="http://kontumnet.com/Info.aspx" style="color: #ff0000; float: right; font-weight: bold; margin-left: 3px;">TNC</a>
+    <span style="float: right; color: #000;">Phát triển:</span>
+
+
+</div>
+
+        
+        
+    </div>  
+</body>
+</html>
